@@ -68,8 +68,16 @@
     color: #555;
   }
   
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
   .team-member img {
     transition: transform 0.3s ease;
+    margin-bottom: 15px; /* Add some spacing below the image */
   }
   
   .team-member img:hover {
@@ -79,6 +87,7 @@
   .linkedin-link {
     color: #0077b5;
     transition: color 0.3s ease;
+    margin-top: 10px; /* Add some spacing above the LinkedIn icon */
   }
   
   .linkedin-link:hover {

@@ -5,8 +5,22 @@ import './HomePage.css';
 import { GlobeDemo } from './GlobeDemo';
 import { FaUsers, FaUsersCog, FaRocket } from 'react-icons/fa'; // Importing icons
 import { FaEnvelope } from 'react-icons/fa'; // Import the 'Contact Us' icon
+import { useNavigate } from 'react-router-dom';
+
+
 
 const HomePage = () => {
+
+  const navigate = useNavigate();
+
+  const handleNavigation = () => {
+    navigate('/Products-Tools');
+  };
+
+  const handleNavigation00 = () => {
+    navigate('/Contact-Us'); // Navigate to the desired route
+  };
+
   return (
     <div className="homepage">
       {/* Hero Section */}
@@ -30,7 +44,7 @@ const HomePage = () => {
             <p className="lead">
               Revolutionize the way you learn, connect, and evolve. The Adveco Ecosystem provides cutting-edge tools crafted to inspire motivation, encourage collaboration, and transform the educational experience.
             </p>
-            <Button variant="light" size="lg" className="rounded-pill">
+            <Button variant="light" size="lg" className="rounded-pill" onClick={handleNavigation}>
               Get Started
             </Button>
           </Container>
@@ -123,7 +137,7 @@ const HomePage = () => {
           Learn More
         </Button>
         <div className="contact-us mt-3">
-          <Button variant="outline-dark" className="d-flex align-items-center rounded-pill">
+          <Button variant="outline-dark" className="d-flex align-items-center rounded-pill" onClick={handleNavigation00}>
             <FaEnvelope size={20} className="mr-2" />
             Contact Us
           </Button>
@@ -202,7 +216,7 @@ const HomePage = () => {
     <p className="lead mb-4">
       Discover the power of AdVantage Ecosystem today and unlock your potential.
     </p>
-    <Button variant="success" size="lg" className="rounded-pill shadow-lg cta-button">
+    <Button variant="success" size="lg" className="rounded-pill shadow-lg cta-button" onClick={handleNavigation}>
       Get Started
     </Button>
   </Container>

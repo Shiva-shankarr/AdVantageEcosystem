@@ -59,54 +59,55 @@ const AboutUs = () => {
         <Container>
           <h2 className="text-center mb-4">Meet the Team</h2>
           <Row className="justify-content-center">
-            {[
-              {
-                name: "Nayan Kanaparthi",
-                role: "CEO (Co-Founder)",
-                img: "https://framerusercontent.com/images/uZfwyXMWpaR7qg1TyG08gmNkc0o.jpg",
-                linkedin: "https://www.linkedin.com/in/nayan-kanaparthi-7383a2183/",
-              },
-              {
-                name: "Praveen Kollipara",
-                role: "CFO (Co-Founder)",
-                img: "https://framerusercontent.com/images/xOzznGjVzrLF4rBS2zIOkQCicY.jpg",
-                linkedin: "https://www.linkedin.com/in/praveenkollipara19/",
-              },
-              {
-                name: "Sai Anjana Perepi",
-                role: "Product Lead",
-                img: "https://framerusercontent.com/images/02U1U7KNYQuoRlYT6uPrpjkucLg.jpg",
-                linkedin: "https://www.linkedin.com/in/anjanaperepi007/",
-              },
-              {
-                name: "Richard Abishai",
-                role: "Researcher",
-                img: "https://framerusercontent.com/images/ubhrWBX1ouwKVMs8iVFcEkqbA.jpg",
-                linkedin: "https://www.linkedin.com/in/richard-abishai/",
-              },
-            ].map((member, index) => (
-              <Col key={index} xs={12} sm={6} md={4} lg={3} className="mb-4">
-                <div className="team-member shadow-lg text-center p-3 h-100">
-                  <img
-                    src={member.img}
-                    alt={member.name}
-                    className="img-fluid rounded-circle mb-3"
-                    style={{ width: "120px", height: "120px", objectFit: "cover" }}
-                  />
-                  <h4>{member.name}</h4>
-                  <h6 className="text-muted mb-3">{member.role}</h6>
-                  <a
-                    href={member.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="linkedin-link"
-                  >
-                    <FaLinkedin size={24} />
-                  </a>
-                </div>
-              </Col>
-            ))}
-          </Row>
+  {[
+    {
+      name: "Nayan Kanaparthi",
+      role: "CEO (Co-Founder)",
+      img: "https://framerusercontent.com/images/uZfwyXMWpaR7qg1TyG08gmNkc0o.jpg",
+      linkedin: "https://www.linkedin.com/in/nayan-kanaparthi-7383a2183/",
+    },
+    {
+      name: "Praveen Kollipara",
+      role: "CFO (Co-Founder)",
+      img: "https://framerusercontent.com/images/xOzznGjVzrLF4rBS2zIOkQCicY.jpg",
+      linkedin: "https://www.linkedin.com/in/praveenkollipara19/",
+    },
+    {
+      name: "Sai Anjana Perepi",
+      role: "Product Lead",
+      img: "https://framerusercontent.com/images/02U1U7KNYQuoRlYT6uPrpjkucLg.jpg",
+      linkedin: "https://www.linkedin.com/in/anjanaperepi007/",
+    },
+    {
+      name: "Richard Abishai",
+      role: "Researcher",
+      img: "https://framerusercontent.com/images/ubhrWBX1ouwKVMs8iVFcEkqbA.jpg",
+      linkedin: "https://www.linkedin.com/in/richard-abishai/",
+    },
+  ].map((member, index) => (
+    <Col key={index} xs={12} sm={6} md={4} lg={3} className="mb-4">
+      <div className="team-member shadow-lg text-center p-3 h-100">
+        <img
+          src={member.img}
+          alt={member.name}
+          className="img-fluid rounded-circle mb-3"
+          style={{ width: "120px", height: "120px", objectFit: "cover" }}
+        />
+        <h4>{member.name}</h4>
+        <h6 className="text-muted mb-3">{member.role}</h6>
+        <a
+          href={member.linkedin}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="linkedin-link"
+        >
+          <FaLinkedin size={24} />
+        </a>
+      </div>
+    </Col>
+  ))}
+</Row>
+
         </Container>
       </div>
     </section>

@@ -10,7 +10,7 @@ import WhyAdveco from './components/WhyAdveco';
 import Resources from './components/Resources.js'
 import Careers from './components/Careers.js';
 import ContactUs from './components/ContactUs.js';
-
+import CommunitySpace from './components/CommunitySpace.js';
 
 const App = () => {
   return (
@@ -27,6 +27,7 @@ const App = () => {
             <Route path='/Resources' element={<Resources/>} />
             <Route path='/Careers' element={<Careers/>} />
             <Route path='/Contact-Us' element={<ContactUs/>} />
+            <Route path='/Community-Space' element={<CommunitySpace/>} />
           </Routes>
         </div>
         <Footer />
