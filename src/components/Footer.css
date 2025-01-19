@@ -1,0 +1,75 @@
+/* General Footer Styling */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+footer h5 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Hover Effects for Links */
+footer .nav-link {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+footer .nav-link:hover {
+  color: #17a2b8;
+  text-decoration: underline;
+}
+
+/* Social Icons Styling */
+footer .social-icons a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  color: #17a2b8;
+  transform: scale(1.2);
+}
+
+/* Button Styling */
+footer .btn-primary {
+  background-color: #17a2b8;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+footer .btn-primary:hover {
+  background-color: #138496;
+  transform: scale(1.05);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  footer {
+      text-align: center;
+  }
+
+  footer h5 {
+      margin-top: 1rem;
+  }
+
+  footer .nav-link {
+      text-align: center;
+  }
+
+  footer .social-icons {
+      justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  footer .social-icons a {
+      margin: 0 0.75rem;
+      font-size: 1.25rem;
+  }
+
+  footer h5 {
+      font-size: 1rem;
+  }
+}

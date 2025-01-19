@@ -1,0 +1,135 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Product Tools Section */
+.product-tools {
+    background-color: #ffffff;
+}
+
+.tool-card {
+    background-color: #e9f7fa; /* Light background for tool cards */
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    padding: 20px; /* Padding for content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Initial shadow */
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    background-color: #d1f0f4; /* Slightly darker background on hover */
+}
+
+.tool-card h2 {
+    font-size: 1.5rem;
+    color: #0c3e74;
+}
+
+.tool-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Pricing Section */
+.pricing-section {
+    background-color: #f8f9fa;
+}
+
+.pricing-section h2 {
+    color: #012346;
+}
+
+.card {
+    background-color: #ffffff; /* White background for pricing cards */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px; /* Padding for content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Initial shadow */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #b0cc0e;
+}
+
+.card button {
+    background-color: #083565;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    padding: 10px 20px; /* Padding for button */
+}
+
+.card button:hover {
+    background-color: #e6e61a;
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .tool-card {
+        margin-bottom: 20px;
+    }
+
+    .card {
+        flex: 1 1 100%;
+    }
+}
+
+/* Align icons and descriptions in one line */
+.feature-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.feature-list li {
+    display: flex;
+    align-items: center; /* Align icon and text vertically */
+    margin-bottom: 10px;
+}
+
+.feature-list li .text-primary {
+    margin-right: 15px; /* Increased space between icon and text */
+}
+
+/* Icon size adjustment */
+.feature-list li svg {
+    font-size: 1.5rem; /* Adjust icon size */
+}
+
+/* Space between each section */
+.mb-4, .my-5, .mb-5 {
+    margin-bottom: 30px; /* Uniform bottom margin for sections */
+}
+
+/* Pricing Section */
+.pricing-section .card-body {
+    padding: 30px;
+}
+
+.pricing-section .card-body h3 {
+    font-size: 1.8rem;
+}
+
+/* Buttons */
+button {
+    font-size: 1rem;
+    padding: 12px 24px;
+}
+
+button:hover {
+    cursor: pointer;
+}

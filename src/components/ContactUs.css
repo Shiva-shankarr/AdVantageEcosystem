@@ -1,0 +1,78 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Section styles */
+.py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.bg-gradient-to-b {
+    background: linear-gradient(to bottom, #1d6363, #5d285c);
+}
+
+/* Form styles */
+.bg-dark-blue {
+    background-color: #05234a; /* Dark blue background for the form */
+}
+
+.bg-dark-blue-light {
+    background-color: #1a365d; /* Lighter dark blue shade for the input focus state */
+}
+
+.rounded-2xl {
+    border-radius: 1rem; /* Rounded corners */
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Shadow for the form */
+}
+
+/* Input styles */
+input, textarea {
+    background-color: #ffffff; /* White background for inputs */
+    color: #333333; /* Dark text for readability */
+    border: 1px solid #ccc; /* Light gray border for inputs */
+}
+
+input:focus, textarea:focus {
+    border-color: #1a365d; /* Focus border color */
+    outline: none;
+}
+
+/* Button styles */
+button {
+    background-color: #6c757d; /* Secondary color (grayish tone) */
+    color: #ffffff; /* White text on button */
+}
+
+button:hover {
+    background-color: #0c6290; /* Slightly darker shade on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+
+/* Social Links */
+.social-link {
+    margin-top: 1rem;
+}
+
+.social-link a {
+    color: #1d3862; /* Light blue color for social links */
+    transition: color 0.3s ease;
+}
+
+.social-link a:hover {
+    color: #071f52; /* Darker blue on hover */
+}
+
+/* About Section */
+.bg-blue-50 {
+    background-color: #e0f7fa; /* Light blue background for the about section */
+}
+
+.text-gray-700 {
+    color: #4a5568; /* Darker gray for text */
+}

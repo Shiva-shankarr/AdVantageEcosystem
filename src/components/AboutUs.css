@@ -1,0 +1,87 @@
+/* General Section Styling */
+.about-us {
+    background-color: #f8f9fa;
+  }
+  
+  .about-us h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .about-us p {
+    font-size: 1.25rem;
+    color: #666;
+  }
+  
+  .mission-box {
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .mission-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mission-box h3 {
+    font-size: 1.75rem;
+    color: #073e79;
+  }
+  
+  .mission-box p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .meet-the-team {
+    background-color: #f8f9fa;
+  }
+  
+  .team-member {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .linkedin-icon {
+    color: #0077b5;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .linkedin-icon:hover {
+    color: #005582;
+    transform: scale(1.2);
+  }
+
+  .about-us-mission h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .about-us-mission p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .team-member img {
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member img:hover {
+    transform: scale(1.1);
+  }
+  
+  .linkedin-link {
+    color: #0077b5;
+    transition: color 0.3s ease;
+  }
+  
+  .linkedin-link:hover {
+    color: #005582;
+  }
+  

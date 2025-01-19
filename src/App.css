@@ -1,0 +1,11 @@
+.content {
+    min-height: calc(100vh - 120px); /* Adjust the height based on your header and footer height */
+    padding: 40px 20px; /* Add padding for space around the content */
+    background-color: #f8f9fa; /* Optional: Set a background color for the content area */
+    box-sizing: border-box; /* Ensure padding is included in the total height */
+  }
+
+  /* You can also style the page content inside .main-content */
+.main-content > * {
+    padding: 20px; /* Adds padding around the content inside the Outlet */
+  }

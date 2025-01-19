@@ -1,0 +1,105 @@
+/* General Section Styling */
+.why-adveco {
+    background-color: #f0f4f8; /* Light background for the section */
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0c3e74;
+    letter-spacing: 1px;
+  }
+  
+  .section-intro {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section-subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #084a90;
+  }
+  
+  .section-text {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .section-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .section-list li {
+    margin-bottom: 10px;
+  }
+  
+  .section-list li::before {
+    content: "✓";
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+  /* Image Style */
+  img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Icon Container Hover Effects */
+  .icon-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .icon-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .icon-container h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #0c3e74;
+  }
+  
+  .icon-container p {
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 992px) {
+    .section-title {
+      font-size: 2rem;
+    }
+  
+    .section-intro {
+      font-size: 1.1rem;
+    }
+  
+    .section-text {
+      font-size: 1rem;
+    }
+  
+    .section-list li {
+      font-size: 0.95rem;
+    }
+  
+    img {
+      max-width: 100%;
+    }
+  }
+  

@@ -1,0 +1,79 @@
+/* General Styles */
+.careers-section {
+    /* background: linear-gradient(180deg, #f9f9f9 0%, #ffffff 100%); */
+    padding: 2rem 0;
+  }
+  
+  /* Remove any other background-specific styles */
+  .bg-blue-50 {
+    background: none; /* Ensure the background color is removed */
+  }
+  
+  .application-process {
+    background: none;
+  }
+  
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 1rem;
+  }
+  
+  .apply-btn {
+    background-color: #132f4d;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-btn:hover {
+    background-color: #8c9714;
+    transform: scale(1.05);
+  }
+  
+  .position-item {
+    padding: 1.5rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .position-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .position-item h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .application-process ul {
+    margin-top: 1rem;
+  }
+  
+  .application-process li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Responsive Typography */
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 2rem;
+    }
+  
+    .position-item {
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .position-item h4 {
+      font-size: 1.3rem;
+    }
+  }
+  

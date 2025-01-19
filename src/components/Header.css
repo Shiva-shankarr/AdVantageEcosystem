@@ -1,0 +1,88 @@
+/* Header.css */
+
+/* Navigation Link Styles */
+.nav-link-custom {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    color: #fff; /* Default color */
+    position: relative;
+  }
+  
+  /* Hover effect for Nav Links */
+  .nav-link-custom:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #0d6efd; /* Change text color on hover */
+    border-radius: 4px;
+  }
+  
+  /* Active Nav Link */
+  .nav-link-custom.active {
+    color: #0d6efd;
+    border-bottom: 2px solid #0d6efd;
+  }
+  
+  /* Search Input Custom Styles */
+  input[type="search"] {
+    font-size: 0.95rem;
+    color: #fff;
+    background-color: #343a40;
+    border: 1px solid #6c757d;
+    border-radius: 50px;
+  }
+  
+  input[type="search"]::placeholder {
+    color: #6c757d;
+  }
+  
+  /* Search Button Custom Styles */
+  button[type="submit"] {
+    background-color: transparent;
+    border: none;
+  }
+  
+  /* Adjust Navbar style */
+  .navbar {
+    background-color: #343a40; /* Dark background */
+  }
+  
+  /* Navbar Brand Styling */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Shadow Effect on Scroll */
+  .sticky-top.shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Mobile Navbar Styling */
+  .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      justify-content: center;
+    }
+  }
+  .nav-link-custom {
+    font-size: 1rem;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link-custom.active {
+    color: #17a2b8; /* Highlight color for the active link */
+    font-weight: bold;
+  }
+  
+  .nav-link-custom:hover {
+    color: #17a2b8; /* Hover effect for links */
+  }
+  
